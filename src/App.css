@@ -1,0 +1,73 @@
+@import url('https://fonts.googleapis.com/css2?family=Lobster&family=Montserrat:wght@300;500&display=swap');
+
+body {
+  color: #000000;
+  background: #ffffa0;
+}
+
+
+div {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+}
+
+button {
+  box-sizing: border-box;
+  background: rgb(221, 13, 13);
+  color: #ffffff;
+  font-size: 24px;
+  padding: 10px;
+
+}
+
+
+img {
+  width: 300px;
+  margin-bottom: 25px;
+}
+
+h1 {
+  font-family: 'Lobster', cursive;
+  font-size: 5vw;
+  margin: -10px;
+}
+
+.imageSection {
+  left: 0;
+  align-items: left;
+  flex-direction: row;
+  text-align: left;
+  float: right;
+  position: absolute;
+  margin-top: 100px;
+  padding: 25px;
+}
+
+.dataSection {
+  align-items: right;
+  flex-direction: row;
+  text-align: right;
+  float: right;
+  
+
+}
+
+article {
+  flex-direction: column;
+  display: inline-block;
+  flex-direction: row;
+}
+
+.container {
+  
+}
+
+p, h2, button {
+  font-family: 'Montserrat', sans-serif;
+}
+
+p {
+  font-size: 1.5vw;
+  
+}
