@@ -1,0 +1,22 @@
+{
+  "files": {
+    "main.css": "/CarTraced/static/css/main.33611bf2.chunk.css",
+    "main.js": "/CarTraced/static/js/main.a61066fe.chunk.js",
+    "main.js.map": "/CarTraced/static/js/main.a61066fe.chunk.js.map",
+    "runtime-main.js": "/CarTraced/static/js/runtime-main.da367ab3.js",
+    "runtime-main.js.map": "/CarTraced/static/js/runtime-main.da367ab3.js.map",
+    "static/js/2.8bf6beae.chunk.js": "/CarTraced/static/js/2.8bf6beae.chunk.js",
+    "static/js/2.8bf6beae.chunk.js.map": "/CarTraced/static/js/2.8bf6beae.chunk.js.map",
+    "static/js/3.71c400a5.chunk.js": "/CarTraced/static/js/3.71c400a5.chunk.js",
+    "static/js/3.71c400a5.chunk.js.map": "/CarTraced/static/js/3.71c400a5.chunk.js.map",
+    "index.html": "/CarTraced/index.html",
+    "static/css/main.33611bf2.chunk.css.map": "/CarTraced/static/css/main.33611bf2.chunk.css.map",
+    "static/js/2.8bf6beae.chunk.js.LICENSE.txt": "/CarTraced/static/js/2.8bf6beae.chunk.js.LICENSE.txt"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.da367ab3.js",
+    "static/js/2.8bf6beae.chunk.js",
+    "static/css/main.33611bf2.chunk.css",
+    "static/js/main.a61066fe.chunk.js"
+  ]
+}
