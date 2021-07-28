@@ -1,2 +1,6 @@
+![App logo](./public/img/CarTraced.png)
+
+
 # CarTraced
-Car classifier using TensorFlow
+
+Complete Car classifier created using React and TensorFlow
