@@ -3,12 +3,16 @@ import "./App.css";
 
 
 // Build models
-//const modelLoading
+//const modelLoading = initialize models - load models
 
-//const imgUpload
+//const imgUpload = upload 400wth x 500hght preview of picture
 
 // const dataParameters 
 
+
+// const dataReset = turn all variables into 0
+// picture gets removed
+// classifiers return to 0
 
 function App() {
 
@@ -19,8 +23,7 @@ function App() {
             <h2>Classify car models and details using tensorflow</h2>
       </header>
       <article className="imageSection leftbox">
-      <img id="test" src="test" 
-      />
+
  <br/>
  <button>Load models</button><br/>
         <button>
@@ -32,13 +35,18 @@ function App() {
           // onChange={imgUpload}
         />
         </button>
+        <br/>
+        <br/>
+
+        <img id="test" src="test" alt="test"
+      />
 </article>
 <article className="dataSection rightbox">
         <p>Make:</p>
         <p>Model:</p>
         <p>Car Type:</p>
         <p>Color:</p>
-        <button>
+        <button onClick="">
           <p>Try another car/Reset</p>
         </button>
       </article>
