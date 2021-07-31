@@ -1,60 +1,95 @@
-import "./App.css";
-//import * as mobilenet from "@tensorflow-models/mobilenet";
+import './App.css';
+import React from 'react';
+import { useState } from "react";
+import * as tf from '@tensorflow/tfjs'
+import * as mobilenet from '@tensorflow-models/mobilenet'
+
+// function imgUpload() {
+//   alert('random name set');
+// }
+
+class App extends React.Component {
+  state = {
+    isTfReady: false,
+    isModelReady: false,
+    classification: null,
+    image: null
+  }
+
+  async componentDidMount() {
+    await tf.ready()
+    this.setState({
+      isTfReady: true
+    })
+
+    this.model = await mobilenet.load()
+    this.setState({ isModelReady: true })
+  }
 
 
-// Build models
-//const modelLoading = initialize models - load models
+// const img = document.getElementById('img');
 
-//const imgUpload = upload 400wth x 500hght preview of picture
+// const model = async() => {
+//   await mobilenet.load();
+// }
 
-// const dataParameters 
+// const predictions = async() => {
+//  await model.classify(img);
+// }
+//const predictions = "test";
+// console.log(predictions);
+// console.log('Predictions: ');
 
 
-// const dataReset = turn all variables into 0
-// picture gets removed
-// classifiers return to 0
+// const [imgloc, setimgloc] = useState(null);
 
-function App() {
+// const imgUpload = event => { 
+//   const { files } = event.target;
 
+  
+// }
+
+render() {
+  // const {classification, isTfReady, isModelReady, image} = this.state;
   return (
     <div className="container">
       <header>
               <h1>CarTraced</h1>
             <h2>Classify car models and details using tensorflow</h2>
       </header>
-      <article className="imageSection leftbox">
+      <br/>
+ <article className="imageSection leftbox">
 
- <br/>
- <button>Load models</button><br/>
+
         <button>
-        Picture upload<br/>
-        <input
-          type="file"
-          accept="image/*"
-          capture="camera"
-          // onChange={imgUpload}
-        />
+            <input
+            type="file"
+            accept="image/*"
+            capture="camera"
+            // onChange={imgUpload}
+          />
         </button>
-        <br/>
-        <br/>
 
-        <img id="test" src="test" alt="test"
-      />
-</article>
-<article className="dataSection rightbox">
+        <p>{this.state.isTfReady ? <span>TFJS ready</span> : ''} & {this.state.isModelReady ? <span> TSmodels Ready</span> : <span>loading...</span>}</p>
+
         <p>Make:</p>
         <p>Model:</p>
         <p>Car Type:</p>
         <p>Color:</p>
-        <button onClick="">
-          <p>Try another car/Reset</p>
-        </button>
+        {/* <p>{predictions}</p> */}
+
       </article>
 
+        <article className="imageSection rightbox">
+          <img
+              // src={picSrc}
+            />
+        </article>
 
 
     </div>
-  );
+  )
+}
 }
 
-export default App;
+export default App
