@@ -47,12 +47,12 @@ h1 {
   padding: 25px;
 }
 
-.dataSection {
+/* .dataSection {
   align-items: left;
   flex-direction: row;
   text-align: left;
   float: left; 
-}
+} */
 
 article {
   flex-direction: column;
@@ -64,6 +64,6 @@ p, h2, h3, button {
   font-family: 'Montserrat', sans-serif;
 }
 
-p {
+/* p {
   font-size: 1.5vw;
-}
+} */
