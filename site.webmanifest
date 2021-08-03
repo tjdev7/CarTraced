@@ -1,6 +1,6 @@
 {
-    "name": "",
-    "short_name": "",
+    "name": "CarTraced - Car Classifier app",
+    "short_name": "CarTraced",
     "icons": [
         {
             "src": "/android-chrome-192x192.png",
