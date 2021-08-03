@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Lobster&family=Montserrat:wght@300;500&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Lobster&family=Montserrat:wght@300;500&display=swap");
 
 body {
   color: #000000;
@@ -31,7 +31,7 @@ img {
 }
 
 h1 {
-  font-family: 'Lobster', cursive;
+  font-family: "Lobster", cursive;
   font-size: 7vw;
   margin: -15px;
 }
@@ -60,8 +60,11 @@ article {
   flex-direction: row;
 }
 
-p, h2, h3, button {
-  font-family: 'Montserrat', sans-serif;
+p,
+h2,
+h3,
+button {
+  font-family: "Montserrat", sans-serif;
 }
 
 /* p {

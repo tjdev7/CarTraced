@@ -1,6 +1,6 @@
 {
   "name": "cartraced",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "private": false,
   "homepage": "https://toughee.github.io/CarTraced/",
   "dependencies": {
@@ -45,6 +45,7 @@
     ]
   },
   "devDependencies": {
-    "gh-pages": "^3.2.3"
+    "gh-pages": "^3.2.3",
+    "prettier": "2.3.2"
   }
 }
