@@ -1,10 +1,9 @@
-@import url('https://fonts.googleapis.com/css2?family=Lobster&family=Montserrat:wght@300;500&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Lobster&family=Montserrat:wght@300;500&display=swap");
 
 body {
   color: #000000;
   background: #ffffa0;
 }
-
 
 div {
   display: flex;
@@ -12,46 +11,48 @@ div {
   text-align: center;
 }
 
-button {
-  box-sizing: border-box;
-  background: rgb(221, 13, 13);
-  color: #ffffff;
-  font-size: 24px;
-  padding: 10px;
-
+aside {
+  text-align: center;
 }
 
+button {
+  background: #ffffff;
+  border-radius: 12px;
+  color: #000000;
+  font-size: 1.5vw;
+  padding: 15px;
+}
 
 img {
-  width: 300px;
-  margin-bottom: 25px;
+  width: 400px;
+  height: 250px;
+  margin: 25px;
+  border: 3px solid red;
 }
 
 h1 {
-  font-family: 'Lobster', cursive;
-  font-size: 5vw;
-  margin: -10px;
+  font-family: "Lobster", cursive;
+  font-size: 7vw;
+  margin: -15px;
 }
 
 .imageSection {
   left: 0;
-  align-items: left;
-  flex-direction: row;
-  text-align: left;
-  float: right;
-  position: absolute;
-  margin-top: 100px;
-  padding: 25px;
-}
-
-.dataSection {
   align-items: right;
   flex-direction: row;
   text-align: right;
   float: right;
-  
-
+  position: relative;
+  margin-top: 100px;
+  padding: 25px;
 }
+
+/* .dataSection {
+  align-items: left;
+  flex-direction: row;
+  text-align: left;
+  float: left; 
+} */
 
 article {
   flex-direction: column;
@@ -59,15 +60,13 @@ article {
   flex-direction: row;
 }
 
-.container {
-  
+p,
+h2,
+h3,
+button {
+  font-family: "Montserrat", sans-serif;
 }
 
-p, h2, button {
-  font-family: 'Montserrat', sans-serif;
-}
-
-p {
+/* p {
   font-size: 1.5vw;
-  
-}
+} */
