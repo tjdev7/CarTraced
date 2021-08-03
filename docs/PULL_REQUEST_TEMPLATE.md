@@ -24,5 +24,5 @@
 
 <!---
 Example: 
-Fix|Update for WineSpotter/repository_name/PR-Number/name_of_fix
+Fix|Update for CarTraced/repository_name/PR-Number/name_of_fix
 --->
